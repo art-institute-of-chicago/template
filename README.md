@@ -8,7 +8,7 @@ project. This is a great place to summarize the goals or intentions of this
 project. Generally speaking, this section is optional, but is a nice way to 
 get a snapshot of what this project is about.
 
-## Installing / Getting started
+## Installing
 
 A quick introduction of the minimal setup you need to get a hello world up and
 running.
@@ -118,8 +118,15 @@ this project you agree to abide by its [terms](CODE_OF_CONDUCT.md).
 
 If there's anything else a developer needs to know (e.g. the code style
 guide), you should link it here. If there's a lot of things to take into
-consideration, it is common to separate this section to its own file called
-`CONTRIBUTING.md` (or similar). If so, you should say that it exists here.
+consideration, separate this section to its own file called `CONTRIBUTING.md` 
+and say that it exists here.
+
+## Acknowledgements
+
+Reference someone's code you used, list contrinutors, insert an external link 
+or thank people. If there's a lot to inclue here, separate this section to its 
+own file called `CONTRIBUTORS.md` and say that it exists here.
+
 
 ## Licensing
 
