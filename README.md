@@ -1,4 +1,4 @@
-![Art Institute of Chicago](aic-logo.gif)
+![Art Institute of Chicago](https://raw.githubusercontent.com/Art-Institute-of-Chicago/template/master/aic-logo.gif)
 
 # Name of Project
 > Additional Sub-Title If Necessary
