@@ -8,18 +8,46 @@ project. This is a great place to summarize the goals or intentions of this
 project. Generally speaking, this section is optional, but is a nice way to 
 get a snapshot of what this project is about.
 
+Also include information on the maturity of the project, like when it was 
+launched, what its current production environment is like, and who it is
+maintained by.
+
+## Features
+
+What are all the bells and whistles that are significant or unique to this project?
+
+* What's the main functionality
+* What new thing does this project provide?
+* What unique feature does this project include?
+
+## Overview
+
+Describe the architure in which this project fits, and point to any other repos
+that are make up the full stack of software. Describe how each piece fits
+together.
+
+## Requirements
+
+List any and all requirements, include hardware, server software, and third-party
+libraries.
+
 ## Installing
 
 A quick introduction of the minimal setup you need to get a hello world up and
 running.
 
 ```shell
+# Comment your code
 packagemanager install aic-project
+
+# Descibe in brief what each step does
 aic-project start
+
+# Or why this step is required
 aic-project some-setup-function-if-necessary
 ```
 
-Here you should say what actually happens when you execute the code above.
+Here you should say more thoroughly what actually happens when you execute the code above.
 
 ## Developing
 
@@ -63,14 +91,6 @@ packagemanager deploy aic-project -s server.com -u username -p password
 
 And again you'd need to tell what the previous code actually does.
 
-## Features
-
-What are all the bells and whistles that are significant or unique to this project?
-
-* What's the main functionality
-* What new thing does this project provide?
-* What unique feature does this project include?
-
 ## Configuration
 
 Here you should write what are all of the configurations a user can enter when
@@ -98,15 +118,25 @@ Copy-paste as many of these as you need.
 
 ## Contributing
 
-We warmly encourage contributions to this project. We use [git-flow](https://github.com/nvie/gitflow) 
-on this project. If you'd like to contribute to this project, please fork 
-the repository and make your changes in a separate branch.
+We encourage your contributions. Please fork this repository and make your changes in a separate branch. 
+We like to use [git-flow](https://github.com/nvie/gitflow) to make this process easier.
 
 ```bash
-git clone https://github.com/you/aic-project.git .
+# Clone the repo to your computer
+git clone git@github.com:your-github-account/aic-project.git
+
+# Enter the folder that was created by the clone
 cd aic-project
+
+# Run the install script
+./install.sh
+
+# Start a feature branch
 git flow start feature yourinitials-good-description-issuenumberifapplicable
-# Make some changes, commit your code
+
+# ... make some changes, commit your code
+
+# Push your branch to GitHub
 git push origin yourinitials-good-description-issuenumberifapplicable
 ```
 
@@ -116,6 +146,8 @@ Then on github.com, create a Pull Request to merge your changes into our
 This project is released with a Contributor Code of Conduct. By participating in 
 this project you agree to abide by its [terms](CODE_OF_CONDUCT.md).
 
+We also welcome bug reports and questions under GitHub's [Issues](issues).
+
 If there's anything else a developer needs to know (e.g. the code style
 guide), you should link it here. If there's a lot of things to take into
 consideration, separate this section to its own file called `CONTRIBUTING.md` 
@@ -123,12 +155,12 @@ and say that it exists here.
 
 ## Acknowledgements
 
-Reference someone's code you used, list contrinutors, insert an external link 
-or thank people. If there's a lot to inclue here, separate this section to its 
-own file called `CONTRIBUTORS.md` and say that it exists here.
-
+Name who designed and developed this project. Reference someone's code you used, 
+list contributors, insert an external link or thank people. If there's a lot to 
+inclue here, separate this section to its own file called `CONTRIBUTORS.md` and 
+say that it exists here.
 
 ## Licensing
 
-The code in this project is licensed under the GNU Affero General Public 
-License Version 3.
+This project is licensed under the [GNU Affero General Public License 
+Version 3](LICENSE).
