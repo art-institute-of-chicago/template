@@ -3,12 +3,12 @@
 # Name of Project
 > Additional Sub-Title If Necessary
 
-Summary of the project. This is the first thing you read when you view this 
-project. This is a great place to summarize the goals or intentions of this 
-project. Generally speaking, this section is optional, but is a nice way to 
+Summary of the project. This is the first thing you read when you view this
+project. This is a great place to summarize the goals or intentions of this
+project. Generally speaking, this section is optional, but is a nice way to
 get a snapshot of what this project is about.
 
-Also include information on the maturity of the project, like when it was 
+Also include information on the maturity of the project, like when it was
 launched, what its current production environment is like, and who it is
 maintained by.
 
@@ -62,8 +62,8 @@ packagemanager install
 
 And state what happens step-by-step.
 
-If a developer needs to copy a sample configuration file to get their local instance 
-going, provide the most minimum effort needed here. More details on configuration can 
+If a developer needs to copy a sample configuration file to get their local instance
+going, provide the most minimum effort needed here. More details on configuration can
 be included in a later section on [Configuration](#configuration).
 
 ### Building
@@ -99,7 +99,7 @@ using the project, and which file each config is set if applicable.
 ### Configuration file path
 
 #### Configuration 1 Name
-Type: `String`  
+Type: `String`
 Default: `'default value'`
 
 State what it does and how you can use it. If needed, you can provide
@@ -111,14 +111,14 @@ aic-project "Some other value"  # Prints "Hello World"
 ```
 
 #### Configuration 2 Name
-Type: `Number|Boolean`  
+Type: `Number|Boolean`
 Default: 100
 
 Copy-paste as many of these as you need.
 
 ## Contributing
 
-We encourage your contributions. Please fork this repository and make your changes in a separate branch. 
+We encourage your contributions. Please fork this repository and make your changes in a separate branch.
 We like to use [git-flow](https://github.com/nvie/gitflow) to make this process easier.
 
 ```bash
@@ -140,27 +140,27 @@ git flow start feature yourinitials-good-description-issuenumberifapplicable
 git push origin yourinitials-good-description-issuenumberifapplicable
 ```
 
-Then on github.com, create a Pull Request to merge your changes into our 
-`develop` branch. 
+Then on github.com, create a Pull Request to merge your changes into our
+`develop` branch.
 
-This project is released with a Contributor Code of Conduct. By participating in 
+This project is released with a Contributor Code of Conduct. By participating in
 this project you agree to abide by its [terms](CODE_OF_CONDUCT.md).
 
 We also welcome bug reports and questions under GitHub's [Issues](issues).
 
 If there's anything else a developer needs to know (e.g. the code style
 guide), you should link it here. If there's a lot of things to take into
-consideration, separate this section to its own file called `CONTRIBUTING.md` 
+consideration, separate this section to its own file called `CONTRIBUTING.md`
 and say that it exists here.
 
 ## Acknowledgements
 
-Name who designed and developed this project. Reference someone's code you used, 
-list contributors, insert an external link or thank people. If there's a lot to 
-inclue here, separate this section to its own file called `CONTRIBUTORS.md` and 
+Name who designed and developed this project. Reference someone's code you used,
+list contributors, insert an external link or thank people. If there's a lot to
+inclue here, separate this section to its own file called `CONTRIBUTORS.md` and
 say that it exists here.
 
 ## Licensing
 
-This project is licensed under the [GNU Affero General Public License 
+This project is licensed under the [GNU Affero General Public License
 Version 3](LICENSE).

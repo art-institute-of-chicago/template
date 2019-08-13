@@ -1,9 +1,9 @@
 AIC Project Changelog
 =============================
 
-At the Digital Experience department of the Art Institute of Chicago, we use Redmine as our 
-internal issue tracker. Some of the changes listed here reference issues tracked via Redmine. 
-In order to differentiate between references to GitHub issues and Redmine issues, we are 
+At the Digital Experience department of the Art Institute of Chicago, we use Redmine as our
+internal issue tracker. Some of the changes listed here reference issues tracked via Redmine.
+In order to differentiate between references to GitHub issues and Redmine issues, we are
 adopting the following scheme:
 
 ```
