@@ -22,13 +22,13 @@ What are all the bells and whistles that are significant or unique to this proje
 
 ## Overview
 
-Describe the architure in which this project fits, and point to any other repos
-that are make up the full stack of software. Describe how each piece fits
+Describe the architecture in which this project fits, and point to any other repos
+that make up the full stack of software. Describe how each piece fits
 together.
 
 ## Requirements
 
-List any and all requirements, include hardware, server software, and third-party
+List any and all requirements, included hardware, server software, and third-party
 libraries.
 
 ## Installing
